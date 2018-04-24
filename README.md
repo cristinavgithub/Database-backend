@@ -27,12 +27,12 @@ Our dedicated sales team will offer you all the help you need to purchase the ri
     <div class="col-sm-4" style="background-color:lavender;">
 	 <div class="col-sm-4" style="background-color:lavender;">.Employees Details<div>
 	<?php
-Database Configuration
+//Database Configuration
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
 $dbname = "elite_health_beauty";
-Dabase Connection
+//Dabase Connection
 $conn= mysqli_connect($dbhost,$dbuser, $dbpass,$dbname);
 if (!$conn) {
   die("Connection failed: " . mysqli_connect_error);
